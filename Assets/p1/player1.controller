@@ -58,17 +58,17 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 4
+  - m_ConditionMode: 3
     m_ConditionEvent: horizontalWalking
     m_EventTreshold: 0.1
-  - m_ConditionMode: 3
+  - m_ConditionMode: 4
     m_ConditionEvent: horizontalWalking
     m_EventTreshold: -0.1
-  - m_ConditionMode: 4
-    m_ConditionEvent: Verticalmovment
+  - m_ConditionMode: 3
+    m_ConditionEvent: verticalMovement
     m_EventTreshold: 0.1
   - m_ConditionMode: 3
-    m_ConditionEvent: Verticalmovment
+    m_ConditionEvent: verticalMovement
     m_EventTreshold: -0.1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7254248762152398095}
@@ -120,7 +120,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 4
-    m_ConditionEvent: Verticalmovment
+    m_ConditionEvent: verticalMovement
     m_EventTreshold: -0.1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3025773893295460942}
@@ -151,7 +151,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: Verticalmovment
+  - m_Name: verticalMovement
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -179,7 +179,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: Verticalmovment
+    m_ConditionEvent: verticalMovement
     m_EventTreshold: 0.1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3025773893295460942}
